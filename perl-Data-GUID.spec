@@ -1,15 +1,15 @@
 %define upstream_name    Data-GUID
-%define upstream_version 0.046
+%define upstream_version 0.047
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Globally unique identifiers
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Data/Data-GUID-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Data::UUID)
@@ -52,4 +52,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 0.45.0-1mdv2011.0
 + Revision: 624769
 - import perl-Data-GUID
+
 
