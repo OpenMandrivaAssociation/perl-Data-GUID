@@ -1,5 +1,5 @@
 %define upstream_name    Data-GUID
-%define upstream_version 0.047
+%define upstream_version 0.048
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -52,5 +52,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 0.45.0-1mdv2011.0
 + Revision: 624769
 - import perl-Data-GUID
+
 
 
